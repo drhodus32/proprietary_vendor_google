@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/Gmail.apk:system/app/Gmail.apk \
     vendor/google/prebuilt/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/google/prebuilt/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
-vendor/google/prebuilt/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
+    vendor/google/prebuilt/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
     vendor/google/prebuilt/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
     vendor/google/prebuilt/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
     vendor/google/prebuilt/app/GooglePackageVerifier.apk:system/app/GooglePackageVerifier.apk \
@@ -64,12 +64,3 @@ PRODUCT_COPY_FILES += \
 # Common Vendor
 PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/vendor/pittpatt:system/vendor/pittpatt
-
-# Required Root Packages
-PRODUCT_PACKAGES += \
-    LatinIME \
-    Superuser \
-    Superuser.apk \
-    su
-
-
