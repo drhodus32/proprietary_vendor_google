@@ -13,10 +13,9 @@
 # limitations under the License.
 
 # Common Applications
-PRODUCT_COPY_FILES += \
+BUILD_PREBUILT += \
     vendor/google/prebuilt/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
     vendor/google/prebuilt/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/google/prebuilt/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/google/prebuilt/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/google/prebuilt/app/Gmail.apk:system/app/Gmail.apk \
     vendor/google/prebuilt/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
@@ -36,10 +35,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/google/prebuilt/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/google/prebuilt/app/SetupWizard.apk:system/app/SetupWizard.apk \
-    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
     vendor/google/prebuilt/app/Vending.apk:system/app/Vending.apk \
     vendor/google/prebuilt/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
     vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk
+
+#    vendor/google/prebuilt/app/FaceLock.apk:system/app/FaceLock.apk \
+#    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
 
 # Common Permissions
 PRODUCT_COPY_FILES += \
