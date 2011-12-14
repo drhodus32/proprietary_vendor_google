@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Common Applications
-BUILD_PREBUILT += \
+PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
     vendor/google/prebuilt/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/google/prebuilt/app/GenieWidget.apk:system/app/GenieWidget.apk \
