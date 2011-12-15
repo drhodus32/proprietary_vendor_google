@@ -64,29 +64,16 @@ PRODUCT_COPY_FILES += \
 
 # Common Vendor
 PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/vendor/pittpatt:system/app/CarHomeGoogle.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/ChromeBookmarksSyncAdapter.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GenieWidget.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/Gmail.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleBackupTransport.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleContactsSyncAdapter.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleEarth.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleFeedback.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleLoginService.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GooglePackageVerifier.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GooglePackageVerifierUpdater.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GooglePartnerSetup.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleQuickSearchBox.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleServicesFramework.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleTTS.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/Maps.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/MarketUpdater.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/MediaUploader.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/NetworkLocation.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/OneTimeInitializer.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/SetupWizard.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/Vending.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/VoiceSearch.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/YouTube.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/FaceLock.apk
-    vendor/google/prebuilt/vendor/pittpatt:system/app/Talk.apk
+    vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-rn7-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-rn7-ri20.2d_n2/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-rp7-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-rp7-ri20.2d_n2/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/nose_base-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/nose_base-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/nose_base-y0-yi45-p0-pi45-rn7-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/nose_base-y0-yi45-p0-pi45-rn7-ri20.2d_n2/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/nose_base-y0-yi45-p0-pi45-rp7-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/nose_base-y0-yi45-p0-pi45-rp7-ri20.2d_n2/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/right_eye-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/right_eye-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/right_eye-y0-yi45-p0-pi45-rn7-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/right_eye-y0-yi45-p0-pi45-rn7-ri20.2d_n2/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detctors.3/right_eye-y0-yi45-p0-pi45-rp7-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/right_eye-y0-yi45-p0-pi45-rp7-ri20.2d_n2/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detectoin/yaw_roll_face_detectors.3/head-y0-yi45-p0-pi45-r0-ri30.4a/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.3/head-y0-yi45-p0-pi45-r0-ri30.4a/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detectoin/yaw_roll_face_detectors.3/head-y0-yi45-p0-pi45-rn30-ri30.5/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.3/head-y0-yi45-p0-pi45-rn30-ri30.5/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/detectoin/yaw_roll_face_detectors.3/head-y0-yi45-p0-pi45-rp30-ri30.5/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.3/head-y0-yi45-p0-pi45-rp30-ri30.5/full_model.bin
+    vendor/google/prebuilt/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin
