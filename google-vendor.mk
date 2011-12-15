@@ -64,4 +64,29 @@ PRODUCT_COPY_FILES += \
 
 # Common Vendor
 PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/vendor/pittpatt:system/vendor/pittpatt
+    vendor/google/prebuilt/vendor/pittpatt:system/app/CarHomeGoogle.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/ChromeBookmarksSyncAdapter.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GenieWidget.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/Gmail.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleBackupTransport.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleContactsSyncAdapter.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleEarth.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleFeedback.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleLoginService.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GooglePackageVerifier.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GooglePackageVerifierUpdater.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GooglePartnerSetup.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleQuickSearchBox.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleServicesFramework.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/GoogleTTS.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/Maps.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/MarketUpdater.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/MediaUploader.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/NetworkLocation.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/OneTimeInitializer.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/SetupWizard.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/Vending.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/VoiceSearch.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/YouTube.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/FaceLock.apk
+    vendor/google/prebuilt/vendor/pittpatt:system/app/Talk.apk
